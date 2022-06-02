@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+.container{
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    height: 70px;
+    background-color: #f2f3f4;
+    align-items: center;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+nav li{
+    display: inline;
+    /* padding: 5px 0; */
+}
+nav a:hover{
+    border-bottom: 2px solid #5271ff ;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #5271ff;
+    font-size: 21px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.post{
+    margin-bottom: 12px;
+    border-bottom: 1px solid #f2f3f4;
+}
+
+.post-title{
+    color: #5271ff;
+    margin-bottom: 4px;
+}
+
+.post-info{
+    color: darkgray;
+    margin-bottom: 4px;
+}
+
+.post-excerpt{
+    text-align: justify;
+    
+
+}
+
+footer{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer p{
+    font-size: 20px;
+}
